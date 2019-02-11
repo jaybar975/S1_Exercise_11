@@ -12,7 +12,7 @@
 
 
 // Display the current date and time //
-document.getElementById("dateNow").innerHTML = "m / d / y < br / > h: m: s";
+document.getElementById("dateNow").innerHTML = "m/d/y <br />h:m:s";
 
 
 // Display the time left until New Year's Eve //
@@ -37,7 +37,7 @@ function runClock() {
 
     // Display the current date and time
     document.getElementById("dateNow").innerHTML =
-        dateStr + " < br / > " + timeStr;
+        dateStr + " <br /> " + timeStr;
 
 
     // Calculate the days until January 1st */
